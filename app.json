@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "ChatGem",
+    "slug": "chatgem",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vkrishna04org.chatgem"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vkrishna04org.chatgem"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "271505fb-c179-4e2c-bb8d-d0a8acdc6116"
+      }
+    },
+    "owner": "vkrishna04-org",
+    "updates": {
+      "url": "https://u.expo.dev/271505fb-c179-4e2c-bb8d-d0a8acdc6116"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
